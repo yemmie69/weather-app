@@ -10,6 +10,7 @@ pipeline {
          steps {
             echo 'initializing terraform'
             sh '''
+            "sh returnStatus: true, script: 'terraform workspace new blue-box'"
              terraform init
             '''
          }
