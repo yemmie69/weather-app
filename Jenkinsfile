@@ -11,7 +11,6 @@ pipeline {
             echo 'initializing terraform'
             sh '''
             cd nginx-proxy
-            returnStatus: true, script: 'terraform workspace new blue-box'
              terraform init
             '''
          }
