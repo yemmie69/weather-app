@@ -10,7 +10,7 @@ pipeline {
          steps {
             echo 'initializing terraform'
             sh '''
-            cd nginx-proxy
+           
              terraform init
             '''
          }
