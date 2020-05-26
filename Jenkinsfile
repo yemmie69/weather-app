@@ -10,8 +10,8 @@ pipeline {
          steps {
             echo 'initializing terraform'
             sh '''
-            cd ..
-            cd C:\Users\OOlayiwola\Desktop\weather-app\nginx-proxy>
+            
+            
          terraform init
             '''
          }
