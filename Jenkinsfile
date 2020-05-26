@@ -11,7 +11,7 @@ pipeline {
             echo 'initializing terraform'
             sh '''
             cd ..
-            cd nginx-proxy
+            cd C:\Users\OOlayiwola\Desktop\weather-app\nginx-proxy>
          terraform init
             '''
          }
